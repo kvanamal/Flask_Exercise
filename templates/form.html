@@ -1,0 +1,9 @@
+{% block content %}
+<h1>Home</h1>
+<h2>Enter an Integer value:</h2>
+<p>Enter Number:</p>
+<form action="/calculate" method="POST">
+    <input type="text" name="number" id="number">
+    <input type="submit" value="Submit">
+</form>
+{% endblock %}

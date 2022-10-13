@@ -1,0 +1,15 @@
+{% block content %}
+<h1>Register</h1>
+<h4>Enter Student Information below</h4>
+
+<form action="/addStudentOrganisation" method="POST">
+    <input type="text" name="name" id="name">
+    <select id="org" name="school">
+        <option value="org1">Chess Club</option>
+        <option value="org2">CS Club</option>
+        <option value="org3">Spanish Club</option>
+        <option value="org4">ABC Club</option>
+        <option value="org5">BCD Club</option>
+      </select><input type="submit" value="Submit">
+</form>
+{% endblock %}
